@@ -5,7 +5,7 @@ In this challenge, we will simulate the processing of batches of Write-Ahead Log
 ### WAL
 
 A WAL record is created each time there is an insert, update, or delete in the database - we will only be dealing with insert records for this exercise. Each WAL record is represented by a dictionary in Python:
-  
+
 ```
   ## INSERT
   {
@@ -21,7 +21,7 @@ A WAL record is created each time there is an insert, update, or delete in the d
     ]
   }
 
-```	
+```
 - The WAL records are produced by 4 tables called:
 	- event_v2_data
 	- transaction
@@ -78,12 +78,8 @@ The challenge should be tackled using Python and only modules from the standard 
 
 📄 1. Document your findings, how did you go about solving the challenge?
 
-☁️ 2. Push your work to your fork on GitHub 
+☁️ 2. Push your work to your fork on GitHub
 
-✉️ 3. Share both the code and your findings with us (please add the Github user primer-api as a reviewer) 🎉 
+✉️ 3. Share both the code and your findings with us (please add the Github user primer-api as a reviewer) 🎉
 
 We look forward to discussing your solution!
-
-
-
-
